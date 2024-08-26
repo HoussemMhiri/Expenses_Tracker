@@ -1,29 +1,61 @@
-# vue-expense-tracker
+# Expense Tracker
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a web application for tracking expenses and income, built with Vue.js and using vue-toastification for toast notifications. The app helps users manage their finances by displaying income, expenses, balance, and transaction history.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Income & Expense Tracking:** View total income, expenses, and current balance.
+- **Transaction History:** See a history of all transactions with the ability to delete individual entries.
+- **Expense Formatting:** Enter expenses by starting with a '-' followed by the amount.
+- **Toast Notifications:** Get feedback and notifications using vue-toastification.
 
-## Customize configuration
+## Tech Stack
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- **Frontend:** Vue.js
+- **Toast Notifications:** vue-toastification
 
-## Project Setup
+## Installation
 
-```sh
-npm install
-```
+### Prerequisites
 
-### Compile and Hot-Reload for Development
+- Node.js & npm
 
-```sh
-npm run dev
-```
+### Setup
 
-### Compile and Minify for Production
+1. Clone the repository:
 
-```sh
-npm run build
-```
+    ```bash
+    git clone https://github.com/HoussemMhiri/Expenses_Tracker.git
+    cd expense-tracker
+    ```
+
+2. Install JavaScript dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Run the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+4. Visit `http://localhost:8080` in your browser to access the application.
+
+## Usage
+
+1. **Add Transactions:** Enter income and expenses. Expenses should start with '-' followed by the amount (e.g., `-50`).
+2. **View Balances:** Check your total income, expenses, and current balance on the dashboard.
+3. **View History:** See a list of your transactions and delete any entry if needed.
+4. **Notifications:** Receive toast notifications for actions and updates.
+
+## Configuration
+
+You can customize the toast notifications by editing the configuration in your Vue app’s `main.js` file or where vue-toastification is initialized.
+
+### Contributing
+Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
+ 
+### Contact
+For any inquiries, feel free to reach out to me at houssemmhiri95@gmail.com.
