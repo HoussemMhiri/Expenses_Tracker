@@ -52,7 +52,7 @@ This is a web application for tracking expenses and income, built with Vue.js an
 
 ## Configuration
 
-You can customize the toast notifications by editing the configuration in your Vue app’s `main.js` file or where vue-toastification is initialized.
+You can customize the toast notifications by editing the configuration in your Vue app’s `main.js` file.
 
 ### Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
